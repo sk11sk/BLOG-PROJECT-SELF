@@ -14,11 +14,7 @@ public class BlogApplication {
 	}
 
 
-	@Bean
-	public PasswordEncoder getEncodedPassword(){
 
-		return new BCryptPasswordEncoder();
-	}
 
 }
 
